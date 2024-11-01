@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
   base:
     mode === "development"
       ? `http://localhost:${port}/`
-      : "/orchy-vue-js-typescript-template/",
+      : "/",
   server: { port, cors: true },
   build: {
     rollupOptions: {
