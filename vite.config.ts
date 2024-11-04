@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
   base:
     mode === "development"
       ? `http://localhost:${port}/`
-      : "/",
+      : "",
   server: { port, cors: true },
   build: {
     rollupOptions: {
